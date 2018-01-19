@@ -53,6 +53,16 @@
                ReferencedContainer = "container:CTKFlagPhoneNumber.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "17A67C472012215B00BD1C1B"
+               BuildableName = "CTKFlagPhoneNumberUITests.xctest"
+               BlueprintName = "CTKFlagPhoneNumberUITests"
+               ReferencedContainer = "container:CTKFlagPhoneNumber.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
