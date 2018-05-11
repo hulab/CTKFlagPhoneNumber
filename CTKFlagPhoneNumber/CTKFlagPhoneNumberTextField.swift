@@ -200,6 +200,11 @@ open class CTKFlagPhoneNumberTextField: UITextField, UITextFieldDelegate, Countr
 		return nationalNumber as String?
 	}
 
+    /// Get the current country phone code
+    public func getCountryCode() -> String? {
+        return countryCode
+    }
+
 	/// Set the country image according to country code
 	public func setFlag(with countryCode: String) {
 		countryPicker.setCountry(countryCode)
