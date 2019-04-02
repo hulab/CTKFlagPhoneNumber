@@ -216,6 +216,11 @@ open class FPNTextField: UITextField, FPNCountryPickerDelegate, FPNDelegate {
 		return nationalNumber as String?
 	}
 
+	/// Get the current country phone code
+	public func getCountryCode() -> String? {
+        return selectedCountry?.code.rawValue
+	}
+
 	/// Set directly the phone number. e.g "+33612345678"
 	public func set(phoneNumber: String) {
 		let cleanedPhoneNumber: String = clean(string: phoneNumber)
